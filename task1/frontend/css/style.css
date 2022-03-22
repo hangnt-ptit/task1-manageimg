@@ -1,0 +1,442 @@
+/* ............................................. */
+
+
+/* ...........DEFAULT SETUP...................... */
+
+
+/* ............................................... */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* ............................................. */
+
+
+/* ...........LOGIN CSS...................... */
+
+
+/* ............................................... */
+
+.login-body {
+    background-image: url("../../../task1/img/wallpaper1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /*view height*/
+    background-attachment: fixed;
+}
+
+.login-area {
+    padding-top: 80px;
+    height: 250px;
+}
+
+.login-area-2 {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    border-style: double;
+    border-color: #65a69a;
+}
+
+.login-area-text {
+    height: 50px;
+    margin-top: -15px;
+    background-color: #65a69a;
+    border-radius: 10px;
+}
+
+.login-form {
+    height: 500px !important;
+}
+
+.login-text {
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.mt-3 {
+    padding-top: 30px !important;
+}
+
+.form-message {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #d93e30;
+}
+
+
+/* css for button login */
+
+.btn-login {
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: #84ccbf;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    border-style: none;
+    transition: all .4s;
+    margin: auto;
+    margin-top: 30px !important;
+    display: block;
+}
+
+.btn-login:hover,
+.btn-login:active {
+    background-color: #65a69a;
+}
+
+
+/* css for sign-up link */
+
+.sign-up {
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-transform: none;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: #65a69a;
+}
+
+.sign-up a:hover {
+    border-bottom: 1px solid #65a69a;
+}
+
+
+/* ............................................. */
+
+
+/* ...........SIGN-UP CSS...................... */
+
+
+/* ............................................... */
+
+.signup-body {
+    background-image: url("../../../task1/img/wallpaper2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /*view height*/
+    background-attachment: fixed;
+}
+
+.signup-area {
+    padding-top: 40px !important;
+}
+
+.signup-area-2 {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    border-style: double;
+    border-color: #65a69a;
+}
+
+.signup-area-text {
+    height: 50px;
+    margin-top: -15px;
+    background-color: #65a69a;
+    border-radius: 10px;
+}
+
+.signup-form {
+    height: 630px !important;
+}
+
+.signup-text {
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* css for button signup */
+
+.btn-signup {
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: #84ccbf;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    border-style: none;
+    transition: all .4s;
+    margin: auto;
+    display: block;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #65a69a;
+}
+
+
+/* ............................................. */
+
+
+/* ...........MAIN-PAGE CSS...................... */
+
+
+/* ............................................... */
+
+
+/* css page name */
+
+.page-name h3 {
+    color: #65a69a;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+
+/* css-menu */
+
+.page-menu {
+    margin-top: 25px;
+}
+
+
+/* for button */
+
+.btn-newphoto {
+    margin-right: 40px;
+    border-radius: 5px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #65a69a;
+    color: white;
+    border-color: #2e665c;
+    transition: all .4s;
+}
+
+.btn-newphoto:hover,
+.btn-newphoto:active {
+    background-color: #2e665c;
+}
+
+.btn-deletephoto {
+    margin-right: 40px;
+    border-radius: 5px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2cd5e;
+    color: white;
+    border-color: #d6aa27;
+    transition: all .4s;
+}
+
+.btn-deletephoto:hover,
+.btn-deletephoto:active {
+    background-color: #d6aa27;
+}
+
+
+/* for search bar */
+
+.search-form {
+    display: inline;
+    border-radius: 5px;
+    width: 200px !important;
+}
+
+.search-form::placeholder {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-search {
+    width: 40px;
+    background-color: #65a69a;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* for log-out */
+
+.logout {
+    margin-top: 25px;
+}
+
+.logout a {
+    font-family: 'Roboto', sans-serif;
+    color: #2e665c;
+    font-weight: 600;
+}
+
+
+/* main-table */
+
+.table-bordered {
+    margin-top: 30px;
+}
+
+.hello-img {
+    display: inline;
+    max-width: 200px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    margin-top: -30px;
+}
+
+.user-name {
+    display: inline;
+    text-align: center;
+    color: #bb6cd9;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.table-bordered thead th {
+    font-family: 'Roboto', sans-serif;
+    color: #65a69a;
+}
+
+.table-bordered th {
+    background-color: #f5f5f5;
+}
+
+.table-bordered tr:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+.link-delete,
+.link-edit,
+.link-download {
+    font-size: 15px;
+    display: inline;
+}
+
+
+/* ............................................. */
+
+
+/* ...........POP-UP ADD PHOTO CSS...................... */
+
+
+/* ............................................... */
+
+.popup-newphoto {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.popup-editphoto {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-close,
+.img-edit-close {
+    position: absolute;
+    max-width: 150px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
+
+.popup-content {
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.popup-title img {
+    display: inline;
+    max-width: 900px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.popup-title h5 {
+    display: inline;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #2e665c;
+}
+
+.popup-table {
+    text-align: left;
+}
+
+.table-bordered input {
+    display: block;
+    width: 400px !important;
+}
+
+.table-bordered input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+textarea {
+    content: none;
+}
+
+textarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+.select-img {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
